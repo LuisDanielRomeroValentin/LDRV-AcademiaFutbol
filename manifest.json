@@ -1,6 +1,6 @@
 {
-  "name": "LDRV - Academia Futbol - CDF Javea",
-  "short_name": "LDRV Futbol",
+  "name": "AF - CDF Javea",
+  "short_name": "AF - CDF Javea",
   "description": "Herramienta de trabajo para la academia de futbol CDF Javea",
   "start_url": "./index.html",
   "scope": "./",
@@ -11,7 +11,7 @@
   "lang": "es",
   "icons": [
     {
-      "src": "assets/images/logo.png",
+      "src": "assets/images/escudo.png",
       "sizes": "any",
       "type": "image/png",
       "purpose": "any"
