@@ -7,7 +7,7 @@
 // sube también la versión de CACHE_VERSION para forzar la actualización
 // en los dispositivos de los usuarios.
 
-const CACHE_VERSION = "v1";
+const CACHE_VERSION = "v0.02";
 
 const SHELL_CACHE = `ldrv-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `ldrv-data-${CACHE_VERSION}`;

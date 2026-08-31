@@ -1,3 +1,15 @@
+// Versión de la app: actualiza este número cada vez que subas
+// cambios a GitHub (y recuerda subir también CACHE_VERSION en
+// service-worker.js para que el caché se renueve).
+const APP_VERSION = "0.02";
+
+document
+    .querySelectorAll(".app-version")
+    .forEach((el) => {
+        el.textContent = `v${APP_VERSION}`;
+    });
+
+
 // Registro del Service Worker (habilita instalación y uso offline)
 if ("serviceWorker" in navigator) {
 
