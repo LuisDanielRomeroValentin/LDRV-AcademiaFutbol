@@ -1,95 +1,98 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
 
     <title>LDRV-AcademiaFutbol</title>
 
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+    <!-- Bootstrap local -->
+    <link
+        rel="stylesheet"
+        href="css/bootstrap.min.css"
+    >
 
-        html,
-        body {
-            margin: 0;
-            padding: 0;
-            min-height: 100%;
-        }
+    <!-- Estilos propios -->
+    <link
+        rel="stylesheet"
+        href="css/app.css"
+    >
 
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background: #f5f5f5;
-            color: #222;
-        }
-
-        .app {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 24px;
-        }
-
-        .logo {
-            width: min(220px, 55vw);
-            height: min(220px, 55vw);
-            object-fit: contain;
-            margin-bottom: 24px;
-        }
-
-        h1 {
-            margin: 0;
-            text-align: center;
-            font-size: clamp(1.8rem, 6vw, 3rem);
-        }
-
-        p {
-            margin: 12px 0 32px;
-            text-align: center;
-            font-size: 1rem;
-            color: #666;
-        }
-
-        .enter-button {
-            border: none;
-            border-radius: 12px;
-            padding: 16px 42px;
-            font-size: 1.1rem;
-            font-weight: bold;
-            cursor: pointer;
-        }
-
-        .enter-button:active {
-            transform: scale(0.98);
-        }
-    </style>
 </head>
 
 <body>
 
-    <main class="app">
+    <main class="container-fluid min-vh-100">
 
-        <!-- Sustituiremos esta imagen por el escudo -->
-        <img
-            class="logo"
-            src="assets/images/escudo.png"
-            alt="Escudo LDRV-AcademiaFutbol"
+        <!-- PANTALLA INICIAL -->
+
+        <section
+            id="home-screen"
+            class="min-vh-100 d-flex flex-column justify-content-center align-items-center text-center p-3"
         >
 
-        <h1>LDRV-AcademiaFutbol</h1>
+            <img
+                class="logo mb-4"
+                src="assets/images/escudo.png"
+                alt="Escudo LDRV-AcademiaFutbol"
+            >
 
-        <p>
-            Herramienta de trabajo para la academia de fútbol
-        </p>
+            <h1 class="display-5 fw-bold">
+                LDRV-AcademiaFutbol
+            </h1>
 
-        <button class="enter-button" type="button">
-            ENTRAR
-        </button>
+            <p class="text-secondary mb-4">
+                Herramienta de trabajo para la academia de fútbol
+            </p>
+
+            <button
+                id="enter-button"
+                type="button"
+                class="btn btn-primary btn-lg px-5"
+            >
+                ENTRAR
+            </button>
+
+        </section>
+
+
+        <!-- MENÚ -->
+
+        <section
+            id="menu-screen"
+            class="container py-4 d-none"
+        >
+
+            <header class="text-center mb-4">
+
+                <h1 class="h2 fw-bold">
+                    Menú
+                </h1>
+
+            </header>
+
+            <div id="app-content"></div>
+
+        </section>
 
     </main>
 
+
+    <!-- Bootstrap local -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Motor de menú -->
+    <script src="js/menu-engine.js"></script>
+
+    <!-- Aplicación -->
+    <script src="js/app.js"></script>
+
 </body>
+
 </html>

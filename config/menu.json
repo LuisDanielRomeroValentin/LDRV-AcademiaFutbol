@@ -1,0 +1,67 @@
+{
+  "menus": [
+    {
+      "id": "entrenamientos",
+      "title": "Entrenamientos",
+      "icon": "⚽",
+      "items": [
+        {
+          "id": "planning_day",
+          "title": "Planning Day",
+          "icon": "📋",
+          "enabled": true,
+          "config": "menus/planning-day.json"
+        },
+        {
+          "id": "feedback",
+          "title": "Feedback",
+          "icon": "💬",
+          "enabled": false,
+          "config": "menus/feedback.json"
+        }
+      ]
+    },
+    {
+      "id": "partidos",
+      "title": "Partidos",
+      "icon": "🏟️",
+      "items": [
+        {
+          "id": "convocatoria",
+          "title": "Convocatoria",
+          "icon": "👥",
+          "enabled": false,
+          "config": "menus/convocatoria.json"
+        },
+        {
+          "id": "live",
+          "title": "Live",
+          "icon": "🔴",
+          "enabled": false,
+          "config": "menus/live.json"
+        }
+      ]
+    },
+    {
+      "id": "general",
+      "title": "General",
+      "icon": "⚙️",
+      "items": [
+        {
+          "id": "jugadores",
+          "title": "Jugadores",
+          "icon": "👤",
+          "enabled": false,
+          "config": "menus/jugadores.json"
+        },
+        {
+          "id": "otro",
+          "title": "Otro",
+          "icon": "📁",
+          "enabled": false,
+          "config": "menus/otro.json"
+        }
+      ]
+    }
+  ]
+}
