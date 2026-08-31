@@ -1,0 +1,6 @@
+{
+  "jugadores": [
+    { "idJugador": "j001", "nombreJugador": "Jugador Ejemplo 1", "equipo": "cadete-a" },
+    { "idJugador": "j002", "nombreJugador": "Jugador Ejemplo 2", "equipo": "infantil-b" }
+  ]
+}

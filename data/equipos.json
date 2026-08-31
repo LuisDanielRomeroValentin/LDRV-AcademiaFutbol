@@ -1,0 +1,6 @@
+{
+  "equipos": [
+    { "idEquipo": "cadete-a", "equipo": "Cadete A" },
+    { "idEquipo": "infantil-b", "equipo": "Infantil B" }
+  ]
+}

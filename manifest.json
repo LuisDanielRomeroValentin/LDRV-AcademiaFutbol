@@ -1,0 +1,20 @@
+{
+  "name": "LDRV - Academia Futbol - CDF Javea",
+  "short_name": "LDRV Futbol",
+  "description": "Herramienta de trabajo para la academia de futbol CDF Javea",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f5f5",
+  "theme_color": "#0d6efd",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "assets/images/logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
